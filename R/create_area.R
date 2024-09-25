@@ -1,3 +1,14 @@
+#' Convert Area
+#'
+#' @param value A numeric value
+#' @param from What you're converting from
+#'
+#' @return A numeric value
+#' @export
+#'
+#' @examples
+#' convert_area(15, from = "acres")
+#' convert_area(15, from = "hectares")
 convert_area <- function(value, from = c("acres", "hectares")) {
 
   from <- match.arg(from)

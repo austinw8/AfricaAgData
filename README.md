@@ -6,7 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of AfricaAgData is to make West Africa Agricultre data
+The goal of AfricaAgData is to make West Africa Agriculture data
 accessible.
 
 ## Installation
@@ -15,6 +15,6 @@ You can install the development version of AfricaAgData from
 [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("pak")
-pak::pak("austinw8/AfricaAgData")
+# install.packages("devtools")
+devtools::install_github("austinw8/AfricaAgData")
 ```
